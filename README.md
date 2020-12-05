@@ -1,2 +1,2 @@
 # Python
-Python practise and assignments
+Python practice
