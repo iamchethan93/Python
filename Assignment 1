@@ -1,0 +1,14 @@
+##Number Divisible by 7
+number_list = [ x for x in range(2000, 3201) if x % 7 == 0 and x%5!=0]
+print(number_list)
+
+##User first and last name
+First_Name=input("Enter your first name :")
+Last_Name=input("Enter your last name :")
+print('{1} and {0}'.format(First_Name,Last_Name))
+
+##Volume of sphere
+pi = 3.1415926535897931
+r= 12.0
+V= 4.0/3.0*pi* r**3
+print('The volume of the sphere is:{}'.format(V))
