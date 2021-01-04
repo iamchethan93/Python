@@ -1,0 +1,15 @@
+##Nested Loop
+for i in range(5):
+    for j in range(i+1):
+        print("* ", end="")
+    print()
+
+for i in range(5):
+    for j in range(4-i):
+        print("* ", end="")
+    print()
+
+#Reverse Name
+x=input('Enter your name : ')
+y=x[::-1]
+print(y)
