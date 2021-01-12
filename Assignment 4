@@ -1,0 +1,57 @@
+#Area of Triangle
+class area_of_triangle_inp:
+    def __init__(self):
+        self.a = int(input("Enter the value of a : "))
+        self.c = int(input("Enter the value of c : "))
+        self.b = int(input("Enter the value of b : "))
+
+
+class area_calc(area_of_triangle_inp):
+    def area(self):
+        s = (self.a + self.b + self.c) / 2
+        area = (s * (s - self.a) * (s - self.b) * (s - self.c)) ** 0.5
+        print(f"Area of triangle is {area:.3f} cm")
+
+
+Output = area_calc()
+Output.area()
+
+
+#filter_long_words
+def filter_long_words(words, n):
+     long_words = []
+     for i in words:
+         if len(i) > n:
+             long_words.append(i)
+     print(long_words)
+
+
+lst = ["Chethan", "Vinay", "Ranga", "Sharath", "Shiva Prasad BV", "22 lakhs"]
+filter_long_words(lst, 8)
+
+
+
+#wordscount
+def wordscount (words):
+    return(len(words))
+
+lst = ["Chethan", "Vinay", "Ranga", "Sharath", "Shiva Prasad BV", "22 lakhs"]
+x=map(wordscount,lst)
+print(list(x))
+
+
+#Vowels
+def vowel(a):
+    if a=="a"  or a =="e" or a=='i' or a =='o' or a=='u':
+        print(f"{a} is a vowel")
+    else :
+        print(f"{a} is not a vowel")
+
+
+vowel(input('Enter your input : '))
+
+
+
+
+
+
