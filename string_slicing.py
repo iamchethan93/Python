@@ -19,3 +19,4 @@ print(fruit[0:-1]) # Python adds len(fruit before -1 so the cmnd becomes print(f
 
 print(fruit[-4:-3]) # Equal to print(fruit[len(fruit)-4:len(fruit)-3]) 
 
+print(fruit[::-1])

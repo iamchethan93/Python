@@ -1,5 +1,5 @@
 #Conversion of one datatype to another dataype is called typecasting
-a = "1"
+a = "12"
 b = "2"
 print(a+b)
 

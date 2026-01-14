@@ -8,6 +8,9 @@ quote = '''Action
 kills 
 Anxiety'''
 
+quote1 = '''DO\n More'''
+print(quote1)
+
 print(name[0])
 print(name[1])
 print(name[2])
