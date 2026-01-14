@@ -7,5 +7,6 @@ print("hey chethan \ngood that you are there")
 
 #Escape characters
 #Need to print "Chethan's book is names "Heli hogu Kaarana""
-#print("Chethan's book is names "Heli hogu Kaarana"")    #This will give error
-print("Chethan's book is names \"Heli hogu Kaarana\"")  #Using escape character \"
+#print("Chethan's fav book is names "Heli hogu Kaarana"")    #This will give error
+print("Chethan's fav book is names \"Heli hogu Kaarana\"")  #Using escape character \"
+
