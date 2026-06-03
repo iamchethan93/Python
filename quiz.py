@@ -5,6 +5,3 @@ elif 12<=dt.datetime.now().hour< 5:
     print("Good Afternoon sir")
 else:
     print("Good Evening sir")
-
-
-

@@ -35,7 +35,7 @@ print(l)
 # m[0]=0
 # print(l)
 
-#Never change values based on list
+#Never change values after equating.
 
 m = l.copy() #orignal values of L are retained and not changed.
 m[0]=0
