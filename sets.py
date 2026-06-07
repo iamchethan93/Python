@@ -13,3 +13,15 @@ print(type(cbc)) #--> comes out as dict.
 #To create an empty set 
 bc= set ()
 print(type(bc))
+
+
+#set methods
+
+s = {1,4,2,6,4}
+s1 = {7,8,9,4,2}
+print(s.union(s1))
+
+print(type(s))
+
+s.update(s1)
+print(s,s1)
