@@ -30,20 +30,40 @@
 # print("Some imp lines of code")
 
 #Finally keyword. #Used in the try except to execute code that needs to be executed ireespective of the erros
-def cbc():
-    try:
-        l=[1,2,3,4,5,6]
-        i = input("Enter the index:")
-        print(l[int(i)])
-        return 0
-    except:
-        print("Some error occured")
-        return 1
-    finally:
-        print("Imp lines of code")
+# def cbc():
+#     try:
+#         l=[1,2,3,4,5,6]
+#         i = input("Enter the index:")
+#         print(l[int(i)])
+#         return 0
+#     except:
+#         print("Some error occured")
+#         return 1
+#     finally:
+#         print("Imp lines of code")
 
-x=cbc()
-print(x)
+# x=cbc()
+# print(x)
+
+# Rasing custom errors: 
+# We can raise custom errors in raise keyword. 
+
+# a = int(input("Enter the value between 5 and 9 :"))
+# if (a<5 or a>9):
+#     raise ValueError("Entered Value is not between 5 and 9")
+# print(f"{a}")
+
+#If Quit is given as input in above progam error should not be raised.
+
+a = input("Enter the value between 5 and 9 :")
+if a=='quit':
+    print("Exited the code")
+else:
+    a=int(a)
+    if(a<5 or a>9):
+        raise ValueError("Entered Value is not between 5 and 9")
+    print(f"{a}")
+ 
 
 
 
