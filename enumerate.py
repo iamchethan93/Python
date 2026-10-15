@@ -1,4 +1,5 @@
-# #Enumerate - A fucntion that is used to return both index and value of the list of elements. Ideally we will need to specify index separately. Eg below
+# #Enumerate - A fucntion that is used to return both index and value of the list of elements. 
+# Ideally we will need to specify index separately. Eg below
 
 
 # marks = [19, 25, 67, 87, 45, 100]
@@ -20,7 +21,7 @@
 # #We can custom declare the start value of the index as well
 
 # marks = [19, 25, 67, 87, 45, 100]
-# index = 0
+# index = 1
 # for index,i in enumerate(marks,start=1):
 #     print(i)
 #     if index == 3: print("Good Job")

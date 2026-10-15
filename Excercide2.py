@@ -32,8 +32,7 @@
 def encrypt(str):
     if len(str)>3:
         #Moving the first char to last
-        fChar=str[0]
-        str="cgy" + str[1:] + fChar + "nji"
+        str="cgy" + str[1:] + str[0] + "nji"
         #print(f" Encrypted value is: {str}")
         return str
     else:
@@ -43,8 +42,7 @@ def encrypt(str):
 def decrypt(str):
     if len(str)>3:
         str = str[3:-3]
-        lChar = str[-1]
-        str = lChar + str[:-1]
+        str = str[-1] + str[:-1]
         #print(f"Decrypted code is {str}")
         return str
     else:
