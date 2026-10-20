@@ -26,4 +26,7 @@ with open('cbc.txt') as file:
     print(file.read(6))
     file.seek(0)
     print(file.read(4))
-   
+    file.seek(0)
+    print(file.readlines(1))
+    print(file.tell())
+
